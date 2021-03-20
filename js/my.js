@@ -31,7 +31,7 @@ function teaching(){
 
 
 
-function vics(){
+function fam(){
    document.getElementById('bio').style.display="none";
    document.getElementById('home').style.display="none";
    document.getElementById('publications').style.display="none";
