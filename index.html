@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Ramoni Adeogun</title>
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+
+  
+    <link href="css/navbar-fixed-top.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/academicons.css"/>
+    <link rel="stylesheet" href="css/font-awesome.css"/>
+    <link rel="stylesheet" href="css/icomoon.css"/>
+
+    <link rel="stylesheet" href="css/my.css"/>
+
+    
+    <script type="text/javascript" src="js/my.js"></script>
+
+
+    <script> 
+        $(function(){
+            $("#home").load("home.html"); 
+            $("#bio").load("bio.html"); 
+            $("#publications").load("publications.html"); 
+            $("#teaching").load("teaching.html");  
+            $("#fam").load("fam.html"); 
+        });
+    </script> 
+
+  </head>
+
+  <body onload="activate();">
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">   
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigationbar" aria-expanded="true" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+        
+          <a class="navbar-brand"> <b> Ramoni Adeogun </b> </a>
+        </div>
+
+        <div class="navbar-collapse collapse" id="navigationbar">
+          <ul class="nav navbar-nav navt" >
+            <li class="active"> <a onclick="home();return false;" href="">Home</a></li>
+            <li><a onclick="bio();return false;" href="">Bio</a></li>
+            <li><a onclick="publications();return false;" href="">Publications</a></li>
+            <li><a onclick="teaching();return false;" href="">Teaching</a></li>
+              <li><a  onclick="fam();return false;" href="">Family</a></li>
+          </ul>
+
+          
+
+          <ul class="nav navbar-nav navbar-right">           
+            
+            <li><a class="navbar-social ai ai-orcid-square ai-3x" title="ORCID Profile" href="https://orcid.org/0000-0003-1118-7141" target="_blank" style="padding: 15px 3px; font-size: 2.5em;"></a></li>
+            
+            <li><a class="navbar-social fa fa-linkedin-square fa-3x" title="LinkedIn Profile" href="https://www.linkedin.com/in/radeogun/" target="_blank" style="padding: 15px 3px; font-size: 2.5em;"></a></li>
+            
+            <li><a class="navbar-social ai ai-academia-square ai-3x" title="ResearchGate Profile" href="https://www.researchgate.net/profile/Ramoni-Adeogun" target="_blank" style="padding: 15px 3px; font-size: 2.5em;"></a></li>
+            
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+
+    <div class="container">
+
+      <div class="jumbotron">
+        <div id="home"></div>
+        <div id="bio" style="display:none"></div>
+        <div id="publications" style="display:none"></div>
+        <div id="teaching" style="display:none"> </div>
+        <div id="fam" style="display:none"></div>
+      </div>
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+
+    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+   
+  </body>
+</html>
