@@ -4,6 +4,7 @@ function home(){
    document.getElementById('home').style.display="inline";
    document.getElementById('publications').style.display="none";
    document.getElementById('teaching').style.display="none";
+    document.getElementById('supervision').style.display="none";
    document.getElementById('project').style.display="none";
 }
 function bio(){
@@ -11,6 +12,7 @@ function bio(){
    document.getElementById('home').style.display="none";
    document.getElementById('publications').style.display="none";
    document.getElementById('teaching').style.display="none";
+   document.getElementById('supervision').style.display="none";
    document.getElementById('project').style.display="none";
 }
 function publications(){
@@ -18,6 +20,7 @@ function publications(){
    document.getElementById('home').style.display="none";
    document.getElementById('publications').style.display="inline";
    document.getElementById('teaching').style.display="none";
+   document.getElementById('supervision').style.display="none";
    document.getElementById('project').style.display="none";
 }
 
@@ -26,16 +29,25 @@ function teaching(){
    document.getElementById('home').style.display="none";
    document.getElementById('publications').style.display="none";
    document.getElementById('teaching').style.display="inline";
+   document.getElementById('supervision').style.display="none";
    document.getElementById('project').style.display="none";
 }
 
-
-
-function fam(){
+function teaching(){
    document.getElementById('bio').style.display="none";
    document.getElementById('home').style.display="none";
    document.getElementById('publications').style.display="none";
    document.getElementById('teaching').style.display="none";
+   document.getElementById('supervision').style.display="inline";
+   document.getElementById('project').style.display="none";
+}
+
+function project(){
+   document.getElementById('bio').style.display="none";
+   document.getElementById('home').style.display="none";
+   document.getElementById('publications').style.display="none";
+   document.getElementById('teaching').style.display="none";
+   document.getElementById('supervision').style.display="none";
    document.getElementById('project').style.display="inline";
 }
 
