@@ -38,7 +38,8 @@
             $("#home").load("home.html"); 
             $("#bio").load("bio.html"); 
             $("#publications").load("publications.html"); 
-            $("#teaching").load("teaching.html");  
+            $("#teaching").load("teaching.html"); 
+            $("#supervision").load("supervision.html");
             $("#project").load("project.html"); 
         });
     </script> 
@@ -69,12 +70,14 @@
             <li><a onclick="bio();return false;" href="">Bio</a></li>
             <li><a onclick="publications();return false;" href="">Publications</a></li>
             <li><a onclick="teaching();return false;" href="">Teaching</a></li>
+             <li><a onclick="supervision();return false;" href="">Supervision</a></li>
               <li><a  onclick="project();return false;" href="">Projects</a></li>
           </ul>
 
           
 
-          <ul class="nav navbar-nav navbar-right">           
+          <ul class="nav navbar-nav navbar-right">     
+             <li><a class="navbar-social ai ai-googlescholar-square ai-3x" title="Google Scholar Profile" href="https://scholar.google.com/citations?user=HcNXE0IAAAAJ&hl=en" target="_blank" style="padding: 15px 3px; font-size: 2.5em;"></a></li>
             
             <li><a class="navbar-social ai ai-orcid-square ai-3x" title="ORCID Profile" href="https://orcid.org/0000-0003-1118-7141" target="_blank" style="padding: 15px 3px; font-size: 2.5em;"></a></li>
             
@@ -96,6 +99,7 @@
         <div id="bio" style="display:none"></div>
         <div id="publications" style="display:none"></div>
         <div id="teaching" style="display:none"> </div>
+        <div id="supervision" style="display:none"> </div>
         <div id="project" style="display:none"></div>
       </div>
 
