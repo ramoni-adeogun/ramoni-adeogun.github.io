@@ -33,7 +33,7 @@ function teaching(){
    document.getElementById('project').style.display="none";
 }
 
-function teaching(){
+function supervision(){
    document.getElementById('bio').style.display="none";
    document.getElementById('home').style.display="none";
    document.getElementById('publications').style.display="none";
