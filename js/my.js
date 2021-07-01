@@ -5,7 +5,7 @@ function home(){
    document.getElementById('publications').style.display="none";
    document.getElementById('teaching').style.display="none";
     document.getElementById('supervision').style.display="none";
-   document.getElementById('project').style.display="none";
+   document.getElementById('news').style.display="none";
 }
 function bio(){
    document.getElementById('bio').style.display="inline";
@@ -13,7 +13,7 @@ function bio(){
    document.getElementById('publications').style.display="none";
    document.getElementById('teaching').style.display="none";
    document.getElementById('supervision').style.display="none";
-   document.getElementById('project').style.display="none";
+   document.getElementById('news').style.display="none";
 }
 function publications(){
    document.getElementById('bio').style.display="none";
@@ -21,7 +21,7 @@ function publications(){
    document.getElementById('publications').style.display="inline";
    document.getElementById('teaching').style.display="none";
    document.getElementById('supervision').style.display="none";
-   document.getElementById('project').style.display="none";
+   document.getElementById('news').style.display="none";
 }
 
 function teaching(){
@@ -30,7 +30,7 @@ function teaching(){
    document.getElementById('publications').style.display="none";
    document.getElementById('teaching').style.display="inline";
    document.getElementById('supervision').style.display="none";
-   document.getElementById('project').style.display="none";
+   document.getElementById('news').style.display="none";
 }
 
 function supervision(){
@@ -39,16 +39,16 @@ function supervision(){
    document.getElementById('publications').style.display="none";
    document.getElementById('teaching').style.display="none";
    document.getElementById('supervision').style.display="inline";
-   document.getElementById('project').style.display="none";
+   document.getElementById('news').style.display="none";
 }
 
-function project(){
+function news(){
    document.getElementById('bio').style.display="none";
    document.getElementById('home').style.display="none";
    document.getElementById('publications').style.display="none";
    document.getElementById('teaching').style.display="none";
    document.getElementById('supervision').style.display="none";
-   document.getElementById('project').style.display="inline";
+   document.getElementById('news').style.display="inline";
 }
 
 
