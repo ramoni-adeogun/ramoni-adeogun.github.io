@@ -6,6 +6,7 @@ function home(){
    document.getElementById('teaching').style.display="none";
     document.getElementById('supervision').style.display="none";
    document.getElementById('news').style.display="none";
+   document.getElementById('blog').style.display="none";
 }
 function bio(){
    document.getElementById('bio').style.display="inline";
@@ -14,6 +15,7 @@ function bio(){
    document.getElementById('teaching').style.display="none";
    document.getElementById('supervision').style.display="none";
    document.getElementById('news').style.display="none";
+   document.getElementById('blog').style.display="none";
 }
 function publications(){
    document.getElementById('bio').style.display="none";
@@ -22,6 +24,7 @@ function publications(){
    document.getElementById('teaching').style.display="none";
    document.getElementById('supervision').style.display="none";
    document.getElementById('news').style.display="none";
+   document.getElementById('blog').style.display="none";
 }
 
 function teaching(){
@@ -31,6 +34,7 @@ function teaching(){
    document.getElementById('teaching').style.display="inline";
    document.getElementById('supervision').style.display="none";
    document.getElementById('news').style.display="none";
+   document.getElementById('blog').style.display="none";
 }
 
 function supervision(){
@@ -40,6 +44,7 @@ function supervision(){
    document.getElementById('teaching').style.display="none";
    document.getElementById('supervision').style.display="inline";
    document.getElementById('news').style.display="none";
+   document.getElementById('blog').style.display="none";
 }
 
 function news(){
@@ -49,6 +54,17 @@ function news(){
    document.getElementById('teaching').style.display="none";
    document.getElementById('supervision').style.display="none";
    document.getElementById('news').style.display="inline";
+   document.getElementById('blog').style.display="none";
+}
+
+function blog(){
+   document.getElementById('bio').style.display="none";
+   document.getElementById('home').style.display="none";
+   document.getElementById('publications').style.display="none";
+   document.getElementById('teaching').style.display="none";
+   document.getElementById('supervision').style.display="none";
+   document.getElementById('news').style.display="none";
+   document.getElementById('blog').style.display="inline";
 }
 
 
